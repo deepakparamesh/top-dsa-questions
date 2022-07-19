@@ -5,14 +5,16 @@
 var threeSum = function(nums) {
     let result = [];
     nums.sort((a,b) => {return a-b});
-
+    
+    let left=0;
+    let right=nums.length - 1;
+    let tempSum
     for(let i =0; i< nums.length - 1; i++){
         if(nums[i] > 0) return result;
         if(nums[i] === nums[i-1]) continue;
         
-        let left=i+1;
-        let right = nums.length - 1;
-        let tempSum =0;
+        left=i+1;
+        right = nums.length - 1;
         while(left<right){
             tempSum = nums[i] + nums[left] + nums[right];
             if(tempSum === 0) {
