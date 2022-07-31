@@ -10,36 +10,33 @@
  * @return {void} Do not return anything, modify head in-place instead.
  */
 var reorderList = function(head) {
-    if (!head) { return };
+    if(!head) return;
     
-    let slow = head;
-    let fast = head;
+    let slow=head;
+    let fast=head;
     
-    
-    // finding the middle of the linked list using 2 pters
-    while (fast && fast.next) {
+    //Finding the midway
+    while(fast && fast.next){
         slow = slow.next;
         fast = fast.next.next;
     }
     
-    // reverse the second part of the list starting at slow
-    let prev = null
-    let curr = slow; 
-    while (curr) {
+    // reverse the second half of linked list
+    let prev = null;
+    let curr = slow;
+    while(curr){
         let next = curr.next;
         curr.next = prev;
         prev = curr;
         curr = next;
-    } // here prev is the head 
+    }
     
-    // merge two sorted lists (first one starts at head, second at prev)
-    let first = head;
+    let first=head;
     let second = prev;
-    
-    while(second.next) {
+    while(second.next){
         temp = first.next;
         first.next = second;
-        first = temp;
+        first= temp;
         
         temp = second.next;
         second.next = first;
