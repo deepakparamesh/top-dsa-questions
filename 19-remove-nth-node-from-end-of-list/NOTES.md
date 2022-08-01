@@ -1,7 +1,1 @@
-This is solved with 2 pointer method.
-​
-initialize the left and right pointer.
-​
-move the right pointer n times.
-​
-t
+Think about the special case. where n = size of the list.
