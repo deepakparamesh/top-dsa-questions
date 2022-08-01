@@ -11,11 +11,10 @@
  * @return {ListNode}
  */
 var removeNthFromEnd = function(head, n) {
-    let left=head;
-    let right=head;
+    let left= right= head;
     
     for(i=0; i<n;i++){
-        right = right.next;
+        right = right.next;   
     }
     
     if(!right) return head.next;
@@ -24,7 +23,6 @@ var removeNthFromEnd = function(head, n) {
         right = right.next;
         left = left.next;
     }
-    
     left.next = left.next.next;
     
     return head;
