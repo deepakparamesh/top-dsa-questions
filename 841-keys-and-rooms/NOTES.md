@@ -1,1 +1,1 @@
-​
+Initialize the visited and stack with "0" added.
