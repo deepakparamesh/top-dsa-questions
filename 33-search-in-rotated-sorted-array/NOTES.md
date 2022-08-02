@@ -1,5 +1,6 @@
 check if we are in the left sorted portion or in the right sorted portion.
-​
+if(left<middle) it is left sorted
+else it is right sorted
 ​
 check if middle == target
 if yes return target.
