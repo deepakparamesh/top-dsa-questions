@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/keys-and-rooms/">841. Keys and Rooms</a></h2><h3>Medium</h3><hr><div><p>There are <code>n</code> rooms labeled from <code>0</code> to <code>n - 1</code>&nbsp;and all the rooms are locked except for room <code>0</code>. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.</p>
+<h2><a href="https://leetcode.com/problems/keys-and-rooms/solution/">841. Keys and Rooms</a></h2><h3>Medium</h3><hr><div><p>There are <code>n</code> rooms labeled from <code>0</code> to <code>n - 1</code>&nbsp;and all the rooms are locked except for room <code>0</code>. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.</p>
 
 <p>When you visit a room, you may find a set of <strong>distinct keys</strong> in it. Each key has a number on it, denoting which room it unlocks, and you can take all of them with you to unlock the other rooms.</p>
 
