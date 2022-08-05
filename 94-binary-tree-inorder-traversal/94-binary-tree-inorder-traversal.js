@@ -12,7 +12,6 @@
  */
 var inorderTraversal = function(root) {
     var stack =[];
-    traverse(root);
     function traverse(node){
         if(node){
             traverse(node.left);
@@ -20,5 +19,6 @@ var inorderTraversal = function(root) {
             traverse(node.right);   
         }
     }
+    traverse(root);
     return stack;
 };
