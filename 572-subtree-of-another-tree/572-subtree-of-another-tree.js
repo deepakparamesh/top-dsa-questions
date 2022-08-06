@@ -17,14 +17,12 @@ var isSubtree = function(root, subRoot) {
         if(isSameTree(node, subRoot)) return true;
         return dfs(node.left) || dfs(node.right);
     }
+    
+    function isSameTree(p, q){
+        if(!p && !q) return true;
+        if(!p || !q || p.val !== q.val) return false;
+        return (isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
+    }
+    
     return dfs(root);
 };
-
-function isSameTree(p, q){
-    // check if both nodes are not null
-    if(!p && !q) return true;
-    // check the structure and value of the nodes.
-    if(!p || !q || p.val !== q.val) return false;
-    // do it for both left and right
-    return (isSameTree(p.left, q.left) && isSameTree(p.right, q.right));
-}
