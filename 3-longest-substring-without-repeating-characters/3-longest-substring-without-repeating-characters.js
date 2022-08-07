@@ -14,7 +14,6 @@ var lengthOfLongestSubstring = function (str) {
             start += 1;
 
             if (leftChar in hash) hash[leftChar] -= 1;
-            if (hash[leftChar] === 0) delete hash[leftChar];
         }
         max = Math.max(max, i - start + 1);
     }
