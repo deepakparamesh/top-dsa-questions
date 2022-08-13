@@ -5,7 +5,7 @@
 
 function dfs(grid, row, col) {
     if(row < 0 || row >= grid.length ||
-       col < 0 || col >= grid[0].length ||
+       col < 0 || col >= grid[row].length ||
        grid[row][col] === "0") {
         return ;
     }    
@@ -23,7 +23,7 @@ var numIslands = function (grid) {
     let islands = 0;
     
     for(let i=0; i< grid.length ; i++) {
-        for(let j=0; j< grid[0].length; j++){
+        for(let j=0; j< grid[i].length; j++){
             if(grid[i][j] === "1"){
                 islands += 1;
                 dfs(grid, i, j);
