@@ -38,17 +38,3 @@ var ladderLength = function(beginWord, endWord, wordList) {
     }
     return 0;
 };
-
-// hit *it,h*t,hi*
-// hot *ot,h*t,ho*
-    
-// h*t: [hit, hot]
-
-// hit: [hot]
-// hot: [hit]
-
-
-
-
-// (5000^2 * 10)
-// (5000 * 10^2)
