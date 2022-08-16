@@ -10,9 +10,7 @@ function carFleet(target, position, speed) {
             return [item, speed[index]];
         })
         .sort((a, b) => a[0] - b[0]);
-
     const stack = [];
-
     for (let i = combined.length - 1; i > -1; i--) {
         const p = combined[i][0];
         const s = combined[i][1];
@@ -26,6 +24,5 @@ function carFleet(target, position, speed) {
             stack.pop();
         }
     }
-
     return stack.length;
 }
