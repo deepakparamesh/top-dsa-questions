@@ -3,12 +3,12 @@
  * @return {number}
  */
 var climbStairs = function(n) {
-    let dp1 = 1;
-    let dp2 = 1;
-    for(let i=2; i<=n; i++) {
-        const temp = dp2;
-        dp2 = dp2 + dp1;
-        dp1 = temp;
+    let one = 1;
+    let two = 1;
+    for(let i=0; i < n-1; i++) {
+        let temp = one;
+        one = one + two;
+        two = temp;
     }
-    return dp2;
+    return one;
 };
