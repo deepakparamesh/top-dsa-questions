@@ -5,9 +5,9 @@
 var rob = function(nums) {
     let rob1=0;
     let rob2=0;
-    
+    let temp;
     for(let n of nums){
-        let temp = Math.max(n+rob1, rob2);
+        temp = Math.max(n+rob1, rob2);
         rob1 = rob2;
         rob2 = temp;
     }
