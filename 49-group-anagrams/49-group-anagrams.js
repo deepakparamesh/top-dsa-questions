@@ -4,22 +4,16 @@
  */
 var groupAnagrams = function(strs) {
     let hashMap = {};
-    for(let word of strs){
-        
-        let hashKey = new Array(26).fill(0);
-        for(let char of word){
-            hashKey[char.charCodeAt(0) - 'a'.charCodeAt(0)]++;
-            hashKey.toString();
+    let result = [];   
+    for(let i=0; i< strs.length; i++){
+        let sortedString = strs[i].split('').sort().join('');
+        if(!(sortedString in hashMap)){
+            hashMap[sortedString] = [];
         }
-
-        if(!hashMap[hashKey]) hashMap[hashKey] = [];
-
-        hashMap[hashKey].push(word);
+        hashMap[sortedString].push(strs[i]);
     }
-    
-    let groupAnagrams = [];
     for(let key in hashMap) {
-        groupAnagrams.push(hashMap[key]);
-    }
-    return groupAnagrams;
+        result.push(hashMap[key]);
+    }  
+    return result;
 };
