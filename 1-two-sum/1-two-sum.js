@@ -4,12 +4,12 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    let hashMap = {};
-    for(let [index, value] of nums.entries()){
-        let difference = target - value;
+    let hashMap={};
+    for(let i=0;i<nums.length;i++){
+        let difference = target - nums[i];
         if(difference in hashMap) {
-            return [hashMap[difference], index]
-        };
-        hashMap[value] = index; 
+            return [hashMap[difference], i];
+        }
+        hashMap[nums[i]] = i;
     }
 };
