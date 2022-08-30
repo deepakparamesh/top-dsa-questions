@@ -2,33 +2,20 @@
  * @param {number[]} nums
  * @return {number[]}
  */
-// var productExceptSelf = function(nums) {
-//     for(let [index, value] of nums.entries()) {
-//         let copyOfArray = [...nums];
-//         nums[index] = multipliedValue(copyOfArray.splice(index, 1));
-//     };
-//     return nums;
-// };
-
-// function multipliedValue(nums){
-//     return nums.reduce((accumulator, currentValue) => accumulator * currentValue, 1);
-// }
-
 var productExceptSelf = function(nums) {
-    let result = [];
+    let output = [];
     
-    // iterating for prefix;
-    let prefix = 1;
-    for(let [index, value] of nums.entries()) {
-        result[index] = prefix;
-        prefix = prefix * nums[index];
+    let prefix=1;
+    for(let i=0; i<nums.length; i++){
+        output[i] = prefix;
+        prefix *= nums[i];
     }
     
-    // iterating for postFix
-    let postFix =1;
-    for(let i=nums.length-1; i>=0; i--){
-        result[i] *= postFix;
-        postFix *= nums[i]
+    let postFix = 1;
+    for(let i=nums.length-1; i>=0 ; i--){
+        output[i] *= postFix;
+        postFix *= nums[i];
     }
-    return result;
-}
+    
+    return output;
+};
