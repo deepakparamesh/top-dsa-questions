@@ -4,31 +4,6 @@
  * @return {number[]}
  */
 var topKFrequent = function(nums, k) {
-//     let count = {};
-//     let result = [];
-//     // let frequency = new Array(nums.length).fill([]);
-//     let frequency = Array.from({ length: nums.length + 1 }, () => []);
-    
-    
-//     for(let num of nums){
-//         if(!count[num]) count[num] = 0;
-//         count[num] += 1;
-//     }
-    
-//     for(let key in count) {
-//         // if(!frequency[count[key]]) frequency[count[key]] = [];
-//         frequency[count[key]].push(key);
-//     }
-    
-//     for(let i=nums.length-1; i>=0; i--) {
-//         if(frequency[i].length > 0){
-//             frequency[i].forEach((elem) => result.push[elem]);
-//             if(k == result.length){
-//                 return res;
-//             }
-//         }
-//     }
-    
     let map = {};
     let res = [];
     let bucket = Array.from({ length: nums.length + 1 }, () => []); // to create unique arrays
@@ -52,5 +27,4 @@ var topKFrequent = function(nums, k) {
             }
         }
     }
-    
 };
