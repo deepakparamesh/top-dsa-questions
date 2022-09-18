@@ -1,33 +1,19 @@
 function combinationSum(candidates, target) {
-    candidates.sort((a, b) => a - b);
-    const combos = [];
-    const combo = [];
-    const set = new Set(candidates);
-    buildCombos(target);
-    return combos;
-
-    /**
-     * @param {number} target
-     * @param {number=} start = `0`
-     * @return {void}
-     */
-    function buildCombos(target, start = 0) {
-        if (set.has(target)) {
-            combo.push(target);
-            combos.push(combo.slice());
-            combo.pop();
+    
+    let result = [];
+    
+    function dfs(index, current, total){
+        if(total == target){
+            result.push(current.slice())
+            return;
         }
-
-        const mid = Math.floor(target / 2);
-        for (
-            let i = start;
-            i < candidates.length && candidates[i] <= mid;
-            ++i
-        ) {
-            const candidate = candidates[i];
-            combo.push(candidate);
-            buildCombos(target - candidate, i);
-            combo.pop();
-        }
+        if(total > target || index >= candidates.length) return;
+        
+        current.push(candidates[index]);
+        dfs(index, current, total+candidates[index]);
+        current.pop();
+        dfs(index+1, current, total);
     }
+    dfs(0,[],0);
+    return result;
 }
