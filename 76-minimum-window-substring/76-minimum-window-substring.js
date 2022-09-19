@@ -1,72 +1,35 @@
-var minWindow = function (s, t) {
-    const isMissingArgs = !s.length || !t.length
-    if (isMissingArgs) return '';
-
-    const frequencyMap = getFrequencyMap(t);
-    const { start, end } = getWindowPointers(s, t, frequencyMap);
-
-    return getSubString(s, start, end);
-}
-
-const getFrequencyMap = (str, frequencyMap = new Map()) => {
-    for (const char of str) {
-        frequencyMap.set(char, (frequencyMap.get(char) || 0) + 1);
-    }
-
-    return frequencyMap;
-};
-
-const getWindowPointers = (s, t, frequencyMap) => {
-    let [ left, right, matched, start, end ] = [ 0, 0, 0, 0, (s.length + 1) ];
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {string}
+ */
+var minWindow = function(s, t) {
+    let map1 = new Map(), map2 = new Map(), left = 0, maxMatchedString = '', matches = 0, maxLen = Number.MAX_SAFE_INTEGER;
     
-    while (right < s.length) {
-        matched = addRightFrequency(s, right, frequencyMap, matched);
-
-        const canSlide = () => matched === t.length;
-        while (canSlide()) {
-            const window = (right - left) + 1;
-
-            const isSmaller = window < end;
-            if (isSmaller) {
-                [ start, end ] = [ left, window ];
+    if (t.length > s.length || t == "") { return ""; }
+    
+    for (let i = 0; i < t.length; i++) {
+        map1.has(t[i]) ? map1.set(t[i], map1.get(t[i])+1) : map1.set(t[i], 0);
+    }
+    
+    for(let right = 0; right < s.length; right++) {
+        let end = s[right]
+        if(map1.has(end)) {
+            map2.has(end) ? map2.set(end, map2.get(end)+1) : map2.set(end, 0);
+            if (map1.get(end) == map2.get(end)) { matches++ }
+        }
+                
+        while(matches == map1.size) {
+            if(maxLen > (right - left + 1)) {
+                maxLen = (right - left + 1); 
+                maxMatchedString = s.substring(left, right+1);
+            } 
+            if(map1.has(s[left])) {
+                map2.set(s[left], map2.get(s[left])-1); 
+                if (map2.get(s[left]) < map1.get(s[left])) { matches-- }
             }
-
-            matched = subtractLeftFrequency(s, left, frequencyMap, matched);
             left++;
         }
-
-        right++;
     }
-
-    return { start, end };
+    return maxMatchedString;
 };
-
-const addRightFrequency = (s, right, frequencyMap, matched) => {
-    const char = s[right];
-
-    if (frequencyMap.has(char)) {
-        frequencyMap.set(char, frequencyMap.get(char) - 1);
-
-        const isInWindow = 0 <= frequencyMap.get(char);
-        if (isInWindow) matched++;
-    }
-
-    return matched;
-};
-
-const subtractLeftFrequency = (s, left, frequencyMap, matched) => {
-    const char = s[left];
-
-    if (frequencyMap.has(char)) {
-        const isOutOfWindow = frequencyMap.get(char) === 0;
-        if (isOutOfWindow) matched--;
-
-        frequencyMap.set(char, frequencyMap.get(char) + 1);
-    }
-
-    return matched;
-};
-
-const getSubString = (s, start, end) => end <= s.length
-    ? s.slice(start, start + end)
-    : '';
