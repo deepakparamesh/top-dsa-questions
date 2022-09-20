@@ -3,22 +3,24 @@
  * @return {number[][]}
  */
 var subsets = function(nums) {
-    let res = [];
-    let subset = [];
-    function dfs(i) {
-        if (i >= nums.length) {
-            res.push(subset.slice());
+    let result  = [];
+    let subset  = [];
+    
+    function dfs(index){
+        if(index >= nums.length) {
+            result.push(subset.slice());
             return;
         }
-
-        subset.push(nums[i]);
-        dfs(i + 1);
-
+        
+        subset.push(nums[index]);
+        dfs(index + 1);
+        
         subset.pop();
-        dfs(i + 1);
+        // subset.push(nums[index]);
+        dfs(index + 1);
+        
     }
-
     dfs(0);
-
-    return res;
+    
+    return result;
 };
