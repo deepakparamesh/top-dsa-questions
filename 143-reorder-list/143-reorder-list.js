@@ -12,6 +12,7 @@
 var reorderList = function(head) {
     if(!head) return;
     
+    // have a slow and fast pointer
     let slow=head;
     let fast=head;
     
@@ -31,13 +32,18 @@ var reorderList = function(head) {
         curr = next;
     }
     
+    // Now swap between both first and second
     let first=head;
     let second = prev;
     while(second.next){
+        // storing the first
         temp = first.next;
+        // swapping happens here
         first.next = second;
+        // this is becoming the next
         first= temp;
         
+        // storing the second head
         temp = second.next;
         second.next = first;
         second = temp;
