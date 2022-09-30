@@ -4,33 +4,40 @@
  * @return {number[]}
  */
 var findOrder = function (numCourses, prerequisites) {
-    const prereq = [];
-    for (let i = 0; i < numCourses; i++) {
-        prereq[i] = [];
+    let graph = {};
+    for(let i=0; i < numCourses; i++) {
+        graph[i] = [];
     }
-    for (const [crs, pre] of prerequisites) {
-        prereq[crs].push(pre);
+    for(let [course, prerequisite] of prerequisites) {
+        graph[course].push(prerequisite);   
     }
 
-    const output = [];
-    const visit = new Set();
+    // we are having 2 sets here because the output is expected as an array, If it was set then we could have used the same used the same set as the evaluation element
+    const order = [];
+    const canComplete = new Set();
     const cycle = new Set();
     function dfs(course) {
-        if (cycle.has(course)) return false;
-        if (visit.has(course)) return true;
-
+        // these are the base conditions
+        if(canComplete.has(course)) return true;
+        if(cycle.has(course)) return false;
         cycle.add(course);
-        for (const pre of prereq[course]) {
-            if (!dfs(pre)) return false;
+        
+        for(let neighbor of graph[course]){
+            if(!dfs(neighbor)) return false;
         }
+        canComplete.add(course);
+        // we are removing it from cycle because this should be cleared for all the iteration.
         cycle.delete(course);
-        visit.add(course);
-        output.push(course);
+        order.push(course);
         return true;
     }
-
-    for (let j = 0; j < numCourses; j++) {
-        if (!dfs(j)) return [];
+    
+    // we need to iterate through each element in the given array because there can be multiple distint graphs / which may not be interconnected
+    for(let i=0; i<numCourses; i++){
+        if(!dfs(i)) {
+           return []; 
+        }
     }
-    return output;
+    return order;
+    
 };
