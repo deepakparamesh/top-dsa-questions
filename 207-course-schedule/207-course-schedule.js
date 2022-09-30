@@ -3,78 +3,69 @@
  * @param {number[][]} prerequisites
  * @return {boolean}
  */
-// var canFinish = function(numCourses, prerequisites) {
+var canFinish = function (numCourses, prerequisites) {
+  // 0 unvisited
+  // 1 processing
+  // 2 processed || canComplete
+  const graph = new Map();
+  const status = new Array(numCourses).fill(0);
+  for (let [course, dependency] of prerequisites)
+    graph.set(course, (graph.get(course) || new Set()).add(dependency));
     
-//     // prepare the adjacency list
-//     let preMap = {};
-//     for(let i=0; i<numCourses; i++){
-//         preMap[i] = [];
-//     }
-//     for(let pair of prerequisites){
-//         let [course, prerequisite] = pair;
-//         preMap[course].push(prerequisite);
-//     }
-    
-//     let visitedSet = new Set();
-    
-//     let dfs = (course) =>{
-//         if(visitedSet.has(course)) return false;
-//         if(preMap[course] == []) return true;
-        
-//         visitedSet.add(course);
-        
-//         for(let pre of preMap[course]){
-//             if(!dfs(pre)) return false;
-//             visitedSet.remove(course);
-//             preMap[course] = [];
-//             return true;
-//         }
-//     }
-    
-//     for(let course=0; course < numCourses.length; course++){
-//         if(!dfs(course)){
-//             return false;
-//         }
-//         return true;
-//     }
-// };
-
-
-function createGraph(numCourses, edges) {
-    const graph = Array.from({ length: numCourses }, () => []);
-
-    for (let edge of edges) {
-        let [a, b] = edge;
-
-        if (!(a in graph)) graph[a] = [];
-        if (!(b in graph)) graph[b] = [];
-
-        graph[a].push(b);
-    }
-    return graph;
-}
-
-function canFinish(numCourses, preq) {
-    const graph = createGraph(numCourses, preq);
-    let seen = new Set();
-    let seeing = new Set();
-
-    function explore(course) {
-        if (seen.has(course)) return true;
-        if (seeing.has(course)) return false;
-
-        seeing.add(course);
-        for (let neighbor of graph[course]) {
-            if (!explore(neighbor)) return false;
+    // the reason why we are traversing in this way is we can have distinct courses.
+    for(let i=0; i<numCourses; i++){
+        if(status[i] == 0) {
+            if(isCyclic(graph, status, i)) {
+                return false;
+            }
         }
-
-        seen.add(course);
-        seeing.delete(course);
-        return true;
     }
-
-    for (let i = 0; i < numCourses; i++) {
-        if (!explore(i)) return false;
-    }
+    
     return true;
-}
+    
+    function isCyclic(graph, status, index) {
+        if(status[index] == 1) return true;
+        status[index] = 1;
+        let neighbors = graph.get(index) || [];
+        for(let neighbor of neighbors) {
+            if(status[neighbor] != 2) {
+                if(isCyclic(graph, status, neighbor)) return true;
+            }
+        }
+        status[index] = 2;
+        return false;   
+    }
+};
+
+
+// function canFinish(numCourses, prerequisites) {
+//   const seen = new Set();
+//   const seeing = new Set();
+//   const adj = [...Array(numCourses)].map(r => []);
+  
+//   for (let [u, v] of prerequisites) {
+//     adj[v].push(u);
+//   }
+  
+//   for (let c = 0; c < numCourses; c++) {
+//     if (!dfs(c)) {
+//       return false;
+//     }
+//   }
+//   return true;
+  
+//   function dfs(v) {
+//     if (seen.has(v)) return true;
+//     if (seeing.has(v)) return false;
+    
+//     seeing.add(v);
+//     for (let nv of adj[v]) {
+//       if (!dfs(nv)) {
+//         return false;
+//       }
+//     }
+//     seeing.delete(v);
+//     seen.add(v);
+//     return true;
+//   }
+// }
