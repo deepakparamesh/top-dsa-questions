@@ -11,23 +11,40 @@
  * @return {number}
  */
 var maxPathSum = function(root) {
-    let globalMax = -Infinity
-    let connectedPathsMax = dfs(root)
+//     let globalMax = -Infinity
+//     let connectedPathsMax = dfs(root)
 
-    return Math.max(globalMax, connectedPathsMax)
+//     return Math.max(globalMax, connectedPathsMax)
     
-    function dfs(node) {
-        if (!node) return 0
+//     function dfs(node) {
+//         if (!node) return 0
         
-        let left = dfs(node.left)
-        let right = dfs(node.right)
+//         let left = dfs(node.left)
+//         let right = dfs(node.right)
 	
-        globalMax = Math.max(globalMax, node.val, left+node.val, right+node.val, left + right + node.val)
+//         globalMax = Math.max(globalMax, node.val, left+node.val, right+node.val, left + right + node.val)
         
-		// there might be a bigger solution as we bubble up. 
-		// there's only 3 possible paths to return: 
-		// the current node val only, node val + the left path or the node val + right path. 
-		// you cannot return node + left + right, b/c that would create a split in the path for the recursion.
-        return Math.max(node.val, left + node.val, right + node.val)
-    }  
+// 		// there might be a bigger solution as we bubble up. 
+// 		// there's only 3 possible paths to return: 
+// 		// the current node val only, node val + the left path or the node val + right path. 
+// 		// you cannot return node + left + right, b/c that would create a split in the path for the recursion.
+//         return Math.max(node.val, left + node.val, right + node.val)
+//     }  
+    
+    let res = root.val;
+    
+    function dfs(root){
+        if(!root) return 0;
+        
+        let leftMax = dfs(root.left);
+        let rightMax = dfs(root.right);
+        leftMax = Math.max(leftMax, 0);
+        rightMax = Math.max(rightMax, 0);
+        
+        res = Math.max(res, root.val + leftMax + rightMax);
+        return root.val + Math.max(leftMax, rightMax);
+    }
+    
+    dfs(root);
+    return res;
 };
