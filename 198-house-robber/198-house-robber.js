@@ -2,15 +2,29 @@
  * @param {number[]} nums
  * @return {number}
  */
+// var rob = function(nums) {
+//     let current=0;
+//     let max=0;
+//     let temp;
+//     // [curr, max, n, n+1, ..... nums.length - 1]
+//     for(let n of nums) {
+//         temp = Math.max(n+current, max);
+//         current = max;
+//         max = temp;
+//     }
+//     return max;
+// };
+
 var rob = function(nums) {
-    let current=0;
-    let max=0;
-    let temp;
-    // [curr, max, n, n+1, ..... nums.length - 1]
-    for(let n of nums) {
-        temp = Math.max(n+current, max);
-        current = max;
-        max = temp;
+    if(nums.length == 1) {
+        return nums[0];
     }
-    return max;
-};
+    let dp = [];
+    dp[0] = nums[0];
+    // Knowledge gaps : ith index is going to be the maximum between 2
+    dp[1] = Math.max(nums[0], nums[1]);
+    for(let i=2; i<nums.length; i++){
+        dp[i] = Math.max(nums[i] + dp[i-2], dp[i-1]);
+    }
+    return dp[nums.length-1];
+}
