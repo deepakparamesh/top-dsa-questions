@@ -3,13 +3,14 @@
  * @return {number}
  */
 var rob = function(nums) {
-    let rob1=0;
-    let rob2=0;
+    let current=0;
+    let max=0;
     let temp;
-    for(let n of nums){
-        temp = Math.max(n+rob1, rob2);
-        rob1 = rob2;
-        rob2 = temp;
+    // [curr, max, n, n+1, ..... nums.length - 1]
+    for(let n of nums) {
+        temp = Math.max(n+current, max);
+        current = max;
+        max = temp;
     }
-    return rob2
+    return max;
 };
