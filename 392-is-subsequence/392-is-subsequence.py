@@ -2,8 +2,6 @@
 # Space Complexity : O(1)
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
-        if len(t) < len(s):
-            return False
         
         s_index, t_index = 0, 0
         while s_index < len(s) and t_index < len(t):
