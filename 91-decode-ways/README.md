@@ -1,10 +1,10 @@
 <h2><a href="https://leetcode.com/problems/decode-ways/">91. Decode Ways</a></h2><h3>Medium</h3><hr><div><p>A message containing letters from <code>A-Z</code> can be <strong>encoded</strong> into numbers using the following mapping:</p>
 
-<pre style="position: relative;">'A' -&gt; "1"
+<pre>'A' -&gt; "1"
 'B' -&gt; "2"
 ...
 'Z' -&gt; "26"
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>To <strong>decode</strong> an encoded message, all the digits must be grouped then mapped back into letters using the reverse of the mapping above (there may be multiple ways). For example, <code>"11106"</code> can be mapped into:</p>
 
@@ -22,24 +22,24 @@
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> s = "12"
+<pre><strong>Input:</strong> s = "12"
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> "12" could be decoded as "AB" (1 2) or "L" (12).
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> s = "226"
+<pre><strong>Input:</strong> s = "226"
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> "226" could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> s = "06"
+<pre><strong>Input:</strong> s = "06"
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> "06" cannot be mapped to "F" because of the leading zero ("6" is different from "06").
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
