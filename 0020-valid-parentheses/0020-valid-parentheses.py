@@ -11,7 +11,7 @@ class Solution:
             if c not in Map:
                 stack.append(c)
                 continue
-            if not stack or stack[-1] != Map[c]:
+            elif not stack or stack[-1] != Map[c]:
                 return False
             stack.pop()
                 
