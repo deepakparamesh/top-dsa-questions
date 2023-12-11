@@ -3,9 +3,9 @@
 <p>After doing so, return the array.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> arr = [17,18,5,4,6,1]
+<pre style="position: relative;"><strong>Input:</strong> arr = [17,18,5,4,6,1]
 <strong>Output:</strong> [18,6,6,6,1,-1]
 <strong>Explanation:</strong> 
 - index 0 --&gt; the greatest element to the right of index 0 is index 1 (18).
@@ -14,14 +14,14 @@
 - index 3 --&gt; the greatest element to the right of index 3 is index 4 (6).
 - index 4 --&gt; the greatest element to the right of index 4 is index 5 (1).
 - index 5 --&gt; there are no elements to the right of index 5, so we put -1.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> arr = [400]
+<pre style="position: relative;"><strong>Input:</strong> arr = [400]
 <strong>Output:</strong> [-1]
 <strong>Explanation:</strong> There are no elements to the right of index 0.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
