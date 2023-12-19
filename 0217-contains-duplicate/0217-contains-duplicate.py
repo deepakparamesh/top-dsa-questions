@@ -1,9 +1,20 @@
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        containsSet = set()
+#         newSet = set()
         
-        for i in nums:
-          if i in containsSet:
-            return True
-          containsSet.add(i)
+#         for num in nums:
+#             if num not in newSet:
+#                 newSet.add(num)
+#             else:
+#                 return True
+        
+#         return False
+        
+        newSet = set()
+        
+        for num in nums:
+            if num in newSet:
+                return True
+            newSet.add(num)
+        
         return False
