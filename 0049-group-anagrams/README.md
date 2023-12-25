@@ -4,15 +4,15 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<pre><strong>Input:</strong> strs = ["eat","tea","tan","ate","nat","bat"]
+<pre style="position: relative;"><strong>Input:</strong> strs = ["eat","tea","tan","ate","nat","bat"]
 <strong>Output:</strong> [["bat"],["nat","tan"],["ate","eat","tea"]]
-</pre><p><strong class="example">Example 2:</strong></p>
-<pre><strong>Input:</strong> strs = [""]
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong class="example">Example 2:</strong></p>
+<pre style="position: relative;"><strong>Input:</strong> strs = [""]
 <strong>Output:</strong> [[""]]
-</pre><p><strong class="example">Example 3:</strong></p>
-<pre><strong>Input:</strong> strs = ["a"]
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong class="example">Example 3:</strong></p>
+<pre style="position: relative;"><strong>Input:</strong> strs = ["a"]
 <strong>Output:</strong> [["a"]]
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
