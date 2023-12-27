@@ -9,14 +9,12 @@ class Solution:
                 waterTrap = min(maxLeft, maxRight) - height[left]
                 if(waterTrap > 0):
                     result += waterTrap
-                if height[left] > maxLeft:
-                    maxLeft = height[left]
+                maxLeft = max(height[left],maxLeft)
                 left += 1
             elif maxRight < maxLeft:
                 waterTrap = min(maxLeft, maxRight) - height[right]
                 if(waterTrap > 0):
                     result += waterTrap
-                if height[right] > maxRight:
-                    maxRight = height[right]
+                maxRight = max(height[right], maxRight)
                 right -= 1
         return result
