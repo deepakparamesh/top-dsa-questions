@@ -1,19 +1,18 @@
 class Solution:
     def maxArea(self, height: List[int]) -> int:
-        result = 0
-        left, right = 0, len(height) - 1
-        maxHeight = max(height)
+        left = 0
+        right = len(height) - 1
+        maxArea = 0
         
         while left < right:
-          area = (right - left) * min(height[left], height[right])
-          result = max(area, result)
-          
-          if height[left] < height[right]:
-            left += 1
-          else:
-            right -=1
-          
-          if (right - left) * maxHeight <= result:
-            break
-          
-        return result
+            currentArea = (right - left) * min(height[right], height[left])
+            maxArea = max(currentArea, maxArea)
+            
+            if height[left] > height[right]:
+                right -= 1
+            else:
+                left += 1
+        
+        return maxArea
+
+# Area of rectangle = (right - left) * Min(height[right], height[left])
