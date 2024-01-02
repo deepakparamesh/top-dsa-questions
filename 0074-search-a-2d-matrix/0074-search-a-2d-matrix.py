@@ -15,9 +15,11 @@ class Solution:
             else:
                 break
         
+        # to remember
         if not (top <= bottom):
             return False
         
+        # this is the row we are going to perform our operation.
         row = (top + bottom)//2
         left = 0
         right = COLS-1
