@@ -9,7 +9,6 @@ class Solution:
                 charSet.remove(s[left])
                 left +=1
             charSet.add(s[right])
-            currentLongest = right - left + 1
-            longest = max(longest, currentLongest)
+            longest = max(longest, right - left + 1)
         
         return longest
