@@ -16,4 +16,4 @@ class Solution:
                 right = middle - 1
             
         
-        return min(result, nums[left])
+        return result
