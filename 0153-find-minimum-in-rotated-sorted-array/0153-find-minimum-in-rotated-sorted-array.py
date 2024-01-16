@@ -11,6 +11,7 @@ class Solution:
             # minimum is found in the right
             if nums[middle] > nums[right]:
                 left = middle + 1
+                
             # minimum is found in the left
             else :
                 right = middle - 1
