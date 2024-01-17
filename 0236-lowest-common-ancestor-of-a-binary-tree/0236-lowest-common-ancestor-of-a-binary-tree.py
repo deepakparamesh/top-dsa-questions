@@ -10,27 +10,19 @@ class Solution:
         
         def dfs(node):
             # base 
-            if not node or node == p or node == q:
+            if node == p or node == q or node == None:
                 return node
             
+            # traversal
             left = dfs(node.left)
             right = dfs(node.right)
             
-            if not left:
+            # return something
+            if left == None:
                 return right
-            elif not right:
+            elif right == None:
                 return left
             else: 
                 return node
         
         return dfs(root)
-    
-            
-        
-        
-        
-        
-        
-        
-        
-        
