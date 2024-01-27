@@ -32,13 +32,14 @@ class Solution:
             # dfs return
             return 1 + left + right + top + bottom
         
-        area = 0
+        maxArea = 0
         for row in range(ROWS):
             for column in range(COLS):
                 # we should not make this check. But in number of island we should
                 # if grid[row][column] == "1" and (row, column) not in visited:
-                    area = max(area, dfs(row, column))
+                    area = dfs(row, column)
+                    maxArea = max(area, maxArea)
         
         
         
-        return area
+        return maxArea
