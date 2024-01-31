@@ -1,1 +1,1 @@
-​
+If the right - left is greater than the window size (k), then remove the left element and move the left index to next.
