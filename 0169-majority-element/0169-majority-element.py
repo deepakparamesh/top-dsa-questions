@@ -14,7 +14,7 @@ class Solution:
         
         
         # 3 Boyer-moore algorithm without extra space
-        result, count = 0,0
+        result, count = nums[0],0
         
         for num in nums:
             if count == 0:
