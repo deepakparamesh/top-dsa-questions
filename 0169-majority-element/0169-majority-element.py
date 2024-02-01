@@ -13,12 +13,15 @@ class Solution:
 #                 return num
         
         
-        # 3 Boyer-moore algorithm without extra space
+        # Boyer-moore algorithm without extra space
         result, count = nums[0],0
         
         for num in nums:
             if count == 0:
                 result = num
-            count += (1 if num == result else -1)
+            if num == result: 
+                count+=1
+            else:
+                count-=1
         
         return result
