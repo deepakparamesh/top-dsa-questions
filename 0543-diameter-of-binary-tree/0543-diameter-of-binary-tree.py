@@ -7,25 +7,18 @@
 class Solution:
     def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
         maxDiameter = 0
-
         def dfs(node):
             nonlocal maxDiameter
-            
-            # base condition
-            if not node:
+            if node is None:
                 return 0
             
-            # traversal
             leftHeight = dfs(node.left)
             rightHeight = dfs(node.right)
             
-            # core logic calculation
-            currentNodeDiameter = leftHeight + rightHeight
-            maxDiameter = max(maxDiameter, currentNodeDiameter)
+            diameter = leftHeight + rightHeight
+            maxDiameter = max(diameter, maxDiameter)
             
-            # recursive function return
-            height = 1 + max(leftHeight, rightHeight)
-            return height
-
+            return 1 + max(leftHeight, rightHeight)
+        
         dfs(root)
         return maxDiameter
