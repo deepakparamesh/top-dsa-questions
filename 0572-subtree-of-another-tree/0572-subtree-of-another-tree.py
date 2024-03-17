@@ -8,8 +8,6 @@ class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
         
         def dfs(main, sub):
-            if not sub:
-                return True
             if not main:
                 return False
             
@@ -17,7 +15,9 @@ class Solution:
                 if isSameTree(main, sub):
                     return True
             
-            return dfs(main.left, sub) or dfs(main.right, sub)
+            leftTraversal = dfs(main.left, sub)
+            rightTraversal = dfs(main.right, sub)
+            return leftTraversal or rightTraversal
         
         def isSameTree( main, sub):
             if not main and not sub:
