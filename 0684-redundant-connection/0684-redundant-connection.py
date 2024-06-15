@@ -7,7 +7,7 @@ class Solution:
             p = parent[n]
             
             while p != parent[p]:
-                parent[p] = parent[parent[p]]  # Helps to shorten the parent find process
+                #parent[p] = parent[parent[p]]  # Helps to shorten the parent find process
                 p = parent[p]
             return p
         
