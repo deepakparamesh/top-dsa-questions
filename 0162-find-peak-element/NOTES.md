@@ -1,1 +1,1 @@
-​
+Simple Binary search on the array would do solve this problem.
