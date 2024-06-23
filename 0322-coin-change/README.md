@@ -7,22 +7,22 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> coins = [1,2,5], amount = 11
+<pre><strong>Input:</strong> coins = [1,2,5], amount = 11
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> 11 = 5 + 5 + 1
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> coins = [2], amount = 3
+<pre><strong>Input:</strong> coins = [2], amount = 3
 <strong>Output:</strong> -1
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> coins = [1], amount = 0
+<pre><strong>Input:</strong> coins = [1], amount = 0
 <strong>Output:</strong> 0
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
