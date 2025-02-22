@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
 ## Hash Table
 |  |
 | ------- |
@@ -53,4 +54,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+## Backtracking
+|  |
+| ------- |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
+## Graph
+|  |
+| ------- |
+| [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
 <!---LeetCode Topics End-->
