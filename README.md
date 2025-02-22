@@ -33,4 +33,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/deepakparamesh/top-dsa-questions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
+## Array
+|  |
+| ------- |
+| [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+## Hash Table
+|  |
+| ------- |
+| [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+## String
+|  |
+| ------- |
+| [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+## Trie
+|  |
+| ------- |
+| [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+## Sorting
+|  |
+| ------- |
+| [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 <!---LeetCode Topics End-->
