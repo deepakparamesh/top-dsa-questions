@@ -47,11 +47,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0014-longest-common-prefix) |
 | [0065-valid-number](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0065-valid-number) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0014-longest-common-prefix) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 ## Sorting
 |  |
