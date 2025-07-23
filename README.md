@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0278-first-bad-version) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Interactive
 |  |
 | ------- |
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
 ## Hash Table
 |  |
@@ -60,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 ## Backtracking
 |  |
 | ------- |
@@ -81,4 +84,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 <!---LeetCode Topics End-->
