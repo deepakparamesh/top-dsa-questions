@@ -47,11 +47,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0012-integer-to-roman) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 ## String
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0012-integer-to-roman) |
 | [0014-longest-common-prefix](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0014-longest-common-prefix) |
 | [0065-valid-number](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0065-valid-number) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
@@ -77,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0012-integer-to-roman](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 ## Geometry
