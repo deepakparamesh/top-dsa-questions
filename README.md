@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0278-first-bad-version](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0278-first-bad-version) |
 | [0540-single-element-in-a-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
+| [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
 ## Interactive
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+| [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
+| [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -131,4 +134,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
