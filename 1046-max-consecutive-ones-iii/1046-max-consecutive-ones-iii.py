@@ -1,31 +1,25 @@
 class Solution:
     def longestOnes(self, nums: List[int], k: int) -> int:
-        if not nums:
-            return 0
+        left = 0  # Left pointer of sliding window
+        zeros_count = 0  # Count of zeros in current window
+        max_length = 0  # Maximum valid window length found
         
-        left = 0
-        right = 0
-        zeros_in_window = 0
-        max_window_size = 0
-        
-        while right < len(nums):
-            # Expand window by including nums[right]
+        # Expand window with right pointer
+        for right in range(len(nums)):
+            # Add current element to window
             if nums[right] == 0:
-                zeros_in_window += 1
+                zeros_count += 1
             
-            # Contract window while we have too many zeros
-            while zeros_in_window > k:
+            # Shrink window if we have too many zeros
+            while zeros_count > k:
                 if nums[left] == 0:
-                    zeros_in_window -= 1
+                    zeros_count -= 1
                 left += 1
             
-            # Update answer with current valid window size
-            current_window_size = right - left + 1
-            max_window_size = max(max_window_size, current_window_size)
-            
-            # Move to next position
-            right += 1
+            # Update maximum length (current window is always valid here)
+            current_length = right - left + 1
+            max_length = max(max_length, current_length)
         
-        return max_window_size
+        return max_length
 
         
