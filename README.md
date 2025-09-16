@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/deepakparamesh/top-dsa-questions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Binary Tree
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
 | [0068-text-justification](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0068-text-justification) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
+| [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
 | [0540-single-element-in-a-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
+| [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Dynamic Programming
 |  |
@@ -160,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 <!---LeetCode Topics End-->
