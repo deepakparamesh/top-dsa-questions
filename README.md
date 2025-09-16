@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0065-valid-number](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0065-valid-number) |
 | [0068-text-justification](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0068-text-justification) |
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
+| [0680-valid-palindrome-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
+| [0680-valid-palindrome-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0680-valid-palindrome-ii) |
 ## Sliding Window
 |  |
 | ------- |
@@ -141,4 +143,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
