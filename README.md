@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0012-integer-to-roman) |
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0050-powx-n) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0227-basic-calculator-ii) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0050-powx-n) |
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
 ## Prefix Sum
 |  |
