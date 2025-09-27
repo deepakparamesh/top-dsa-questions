@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0278-first-bad-version](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0278-first-bad-version) |
 | [0540-single-element-in-a-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
+| [0912-random-pick-with-weight](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
+| [0912-random-pick-with-weight](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0912-random-pick-with-weight) |
 | [1028-interval-list-intersections](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0227-basic-calculator-ii) |
+| [0912-random-pick-with-weight](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0912-random-pick-with-weight) |
 ## Geometry
 |  |
 | ------- |
@@ -166,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0912-random-pick-with-weight](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 ## Greedy
 |  |
@@ -182,4 +186,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1028-interval-list-intersections) |
+## Randomized
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0912-random-pick-with-weight) |
 <!---LeetCode Topics End-->
