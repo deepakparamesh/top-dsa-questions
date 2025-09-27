@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
 | [0068-text-justification](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0068-text-justification) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
+| [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0417-pacific-atlantic-water-flow](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
 | [0540-single-element-in-a-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0807-custom-sort-string) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
 ## Simulation
@@ -190,4 +193,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-random-pick-with-weight](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0912-random-pick-with-weight) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
