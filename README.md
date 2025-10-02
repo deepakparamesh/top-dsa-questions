@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0048-rotate-image](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0048-rotate-image) |
 | [0068-text-justification](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0068-text-justification) |
+| [0088-merge-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 | [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0417-pacific-atlantic-water-flow](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [1028-interval-list-intersections](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1028-interval-list-intersections) |
