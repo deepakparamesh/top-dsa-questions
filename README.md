@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0232-implement-queue-using-stacks) |
+| [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Design
 |  |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0807-custom-sort-string) |
+| [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
 ## Trie
