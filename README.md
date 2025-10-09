@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
 ## Math
 |  |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0152-maximum-product-subarray) |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1583-paint-house-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1583-paint-house-iii) |
 ## Two Pointers
@@ -201,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Line Sweep
@@ -228,4 +231,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0432-all-oone-data-structure](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0432-all-oone-data-structure) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
+## Bitmask
+|  |
+| ------- |
+| [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
 <!---LeetCode Topics End-->
