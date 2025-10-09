@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
+| [1583-paint-house-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1583-paint-house-iii) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
 ## Hash Table
 |  |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0152-maximum-product-subarray) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1352-maximum-profit-in-job-scheduling) |
+| [1583-paint-house-iii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1583-paint-house-iii) |
 ## Two Pointers
 |  |
 | ------- |
