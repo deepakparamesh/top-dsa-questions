@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0232-implement-queue-using-stacks) |
+| [0432-all-oone-data-structure](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0432-all-oone-data-structure) |
 ## Queue
 |  |
 | ------- |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0012-integer-to-roman) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
+| [0432-all-oone-data-structure](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0432-all-oone-data-structure) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0807-custom-sort-string) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -213,4 +215,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
+## Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0432-all-oone-data-structure) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0432-all-oone-data-structure](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0432-all-oone-data-structure) |
 <!---LeetCode Topics End-->
