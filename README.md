@@ -22,28 +22,33 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0227-basic-calculator-ii) |
 | [0232-implement-queue-using-stacks](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0232-implement-queue-using-stacks) |
+| [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 ## Design
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0232-implement-queue-using-stacks) |
+| [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0432-all-oone-data-structure) |
 ## Queue
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0232-implement-queue-using-stacks) |
+| [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 ## Tree
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/deepakparamesh/top-dsa-questions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [0417-pacific-atlantic-water-flow](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -239,4 +244,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
+## Iterator
+|  |
+| ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 <!---LeetCode Topics End-->
