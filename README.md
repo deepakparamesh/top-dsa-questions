@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [0417-pacific-atlantic-water-flow](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
+| [0922-possible-bipartition](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0922-possible-bipartition) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/deepakparamesh/top-dsa-questions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Binary Tree
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
+| [0922-possible-bipartition](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0922-possible-bipartition) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
 ## Math
 |  |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
 | [0877-shortest-path-visiting-all-nodes](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0877-shortest-path-visiting-all-nodes) |
+| [0922-possible-bipartition](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0922-possible-bipartition) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Line Sweep
@@ -248,4 +251,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
+## Union Find
+|  |
+| ------- |
+| [0922-possible-bipartition](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0922-possible-bipartition) |
 <!---LeetCode Topics End-->
