@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0341-flatten-nested-list-iterator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [0450-delete-node-in-a-bst](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0450-delete-node-in-a-bst) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/deepakparamesh/top-dsa-questions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Depth-First Search
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0450-delete-node-in-a-bst](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0450-delete-node-in-a-bst) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0784-insert-into-a-binary-search-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/deepakparamesh/top-dsa-questions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 ## Array
@@ -261,4 +263,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0450-delete-node-in-a-bst) |
+| [0784-insert-into-a-binary-search-tree](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0784-insert-into-a-binary-search-tree) |
 <!---LeetCode Topics End-->
