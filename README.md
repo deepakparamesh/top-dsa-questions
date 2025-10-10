@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0068-text-justification](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0068-text-justification) |
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0227-basic-calculator-ii) |
+| [0282-expression-add-operators](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0282-expression-add-operators) |
 | [0680-valid-palindrome-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [0720-longest-word-in-dictionary](https://github.com/deepakparamesh/top-dsa-questions/tree/master/0720-longest-word-in-dictionary) |
 | [0807-custom-sort-string](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0807-custom-sort-string) |
@@ -137,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0282-expression-add-operators](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0282-expression-add-operators) |
 | [2189-maximum-path-quality-of-a-graph](https://github.com/deepakparamesh/top-dsa-questions/tree/master/2189-maximum-path-quality-of-a-graph) |
 ## Graph
 |  |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 | [0224-basic-calculator](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0227-basic-calculator-ii) |
+| [0282-expression-add-operators](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0282-expression-add-operators) |
 | [0380-insert-delete-getrandom-o1](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0912-random-pick-with-weight](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0912-random-pick-with-weight) |
 ## Geometry
