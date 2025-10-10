@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0149-max-points-on-a-line) |
 | [0152-maximum-product-subarray](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0152-maximum-product-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0380-insert-delete-getrandom-o1](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0417-pacific-atlantic-water-flow](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0529-minesweeper](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0529-minesweeper) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0658-find-k-closest-elements](https://github.com/deepakparamesh/top-DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [1397-search-suggestions-system](https://github.com/deepakparamesh/top-DSA-questions/tree/master/1397-search-suggestions-system) |
 ## Simulation
